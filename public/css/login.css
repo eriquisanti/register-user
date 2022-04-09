@@ -1,0 +1,17 @@
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/public/img/background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+#inputLogin, #inputPassword{
+    color: #fff;
+    outline: 0;
+    box-shadow: 0 0 0 0;
+}
+input::placeholder{
+    color: #fff;
+}
+
